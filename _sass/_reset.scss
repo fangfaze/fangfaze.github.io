@@ -25,14 +25,16 @@ h6 {
 }
 html {
     height: 100%;
+    background: #fff;
+
 }
 body {
     font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
     color: #333;
-    background-color: #cc9;
     position: relative;
     min-height: 100%;
     padding-bottom: 190px;
+    background: #fff url(../bg.png);
 }
 a {
     text-decoration: none;
