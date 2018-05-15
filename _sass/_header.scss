@@ -44,6 +44,9 @@ header {
                         height: 52px;
                         &:hover {
                             background-color: #f8f8f8;
+                            i {
+                                color: #c99;
+                            }
                         }
                         i {
                             color: #933;
@@ -54,6 +57,9 @@ header {
                         color: #c99;
                         background-color: #f8f8f8;
                         box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
+                        i {
+                            color: #c99;
+                        }
                     }
                 }
             }

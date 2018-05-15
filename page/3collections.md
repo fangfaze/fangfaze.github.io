@@ -9,6 +9,6 @@ type: page
 * content
 {:toc}
 
-## Comments
+## 评论
 
 {% include comments.html %}

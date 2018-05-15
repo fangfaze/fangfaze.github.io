@@ -13,6 +13,6 @@ type: page
 
 TBD
 
-## Comments
+## 评论
 
 {% include comments.html %}
