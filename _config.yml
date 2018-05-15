@@ -7,7 +7,7 @@
 
 # Site settings
 title: 方法泽
-brief-intro: 目标明确->立即行动->反馈迭代
+brief-intro: 目标明确->现在行动->反馈迭代
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fangfaze.github.io" # the base hostname & protocol for your site
 
