@@ -29,7 +29,7 @@
         ul {
             >h2 {
                 margin-left: -40px;
-                color: #f00;
+                color: #933;
             }
             li {
                 line-height: 1.2;
@@ -103,9 +103,9 @@
             bottom: 190px;
         }
         .side {
+            background-color: #fff;
             box-sizing: border-box;
-            background-color: #f8f8fd;
-            box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3), 0 0 30px rgba(10, 10, 0, 0.1) inset;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.4);
             padding-bottom: 1px;
             -ms-word-break: break-all;
             word-break: break-all;
