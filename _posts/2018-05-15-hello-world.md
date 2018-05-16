@@ -17,6 +17,9 @@ tags: hello 博客 杂谈 认知
     }
 ```
 
+![](http://p8t4291gd.bkt.clouddn.com/markdown-image-paste-1526488480183)
+
+
 
 
 
