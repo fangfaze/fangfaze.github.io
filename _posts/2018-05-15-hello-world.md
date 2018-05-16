@@ -8,8 +8,6 @@ tags: hello 博客 杂谈 认知
 * content
 {:toc}
 
-# Hello world
-
 每次更新博客,自然会从hello world开始.
 最近学习的是java相关的技术栈,所以这次写java.
 
@@ -18,6 +16,10 @@ tags: hello 博客 杂谈 认知
         System.out.println("hello world");
     }
 ```
+
+
+
+
 
 # 关于博客
 
