@@ -28,22 +28,22 @@
         }
         ul {
             >h2 {
-                margin-left: -40px;
-                color: #933;
+                margin: 10px -40px 20px;
+                color: #333;
             }
             li {
                 line-height: 1.2;
-                color: #888888;
+                color: #bbb;
                 time {
                     display: inline-block;
                     width: 135px;
                 }
                 .title {
                     font-weight: bold;
-                    color: #223253;
+                    color: #933;
                     transition: 0.3s ease;
                     &:hover {
-                        color: #4d6dad;
+                        color: #c99;
                     }
                 }
                 i {
@@ -52,34 +52,33 @@
                 .categories {
                     padding: 0 15px;
                     i {
-                        color: #9e9d9d;
+                        color: #444;
                     }
                     a {
                         padding: 0 5px;
-                        background-color: #9e9d9d;
+                        background-color: #444;
+                        border-radius: 2px;
                         color: #fff;
                         font-size: 90%;
                         transition: 0.3s ease;
                         &:hover {
-                            background-color: #b6b6b9;
+                            background-color: #c99;
                         }
                     }
                 }
                 .pageTag {
                     i {
-                        color: #c6cbe9;
+                        color: #ace;
                     }
                     a {
-
-                        // border: 1px solid #aaa;
                         padding: 0 5px;
-                        background-color: #c6cbe9;
+                        background-color: #ace;
                         border-radius: 4px;
                         color: #fff;
                         font-size: 90%;
                         transition: 0.3s ease;
                         &:hover {
-                            background-color: #c0ddc7;
+                            background-color: #c99;
                         }
                     }
                 }
@@ -124,10 +123,10 @@
                 font-weight: bold;
             }
             a {
-                color: #4d6dad;
+                color: #933;
                 transition: 0.5s ease;
                 &:hover {
-                    color: #223253;
+                    color: #c99;
                 }
             }
         }

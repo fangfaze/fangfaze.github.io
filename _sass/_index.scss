@@ -3,7 +3,7 @@
         color: #933;
         transition: 0.5s ease;
         &:hover {
-            color: #f99;
+            color: #c99;
         }
     }
     .left {
@@ -95,13 +95,14 @@
                         a {
                             display: block;
                             width: 100%;
-                            padding: 2px 0;
+                            padding: 2px 10px;
                             border-bottom: 1px solid #eee;
                             &:hover {
-                                background-color: #dbdfee;
+                                background-color: #933;
+                                color: #fff;
                                 .badge {
-                                    background-color: #dbdfee;
-                                    transform: scale(1.2) rotate(360deg);
+                                    background-color: #933;
+                                    transform: scale(1.5);
                                 }
                             }
                             .name {
@@ -109,16 +110,15 @@
                             }
                             .badge {
                                 display: block;
-
                                 // width: 20px;
                                 float: right;
                                 text-align: center;
-                                margin-right: 15px;
+                                margin-right: 20px;
                                 margin-top: 3px;
                                 padding: 0 10px;
                                 font-size: 12px;
                                 color: #fff;
-                                background-color: #bbb;
+                                background-color: #c99;
                                 border-radius: 50%;
                                 transition: 0.5s ease-in-out;
                             }
@@ -141,7 +141,7 @@
                         padding: 0 3px;
                         border-radius: 5px;
                         &:hover {
-                            background-color: #f0e7ce;
+                            background-color: #fee;
                         }
                     }
                 }
