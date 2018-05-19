@@ -9,7 +9,7 @@
 title: 方法泽
 brief-intro: 目标明确->现在行动->反馈迭代
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fangfaze.github.io" # the base hostname & protocol for your site
+url: "https://www.fangfaze.com" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
