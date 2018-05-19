@@ -4,6 +4,5 @@ Site powered by  [Jekyll](https://jekyllrb.com/) && [Github Pages](https://pages
 
 Theme designed by [HyG](https://github.com/Gaohaoyang) && modify by[Fangfaze](https://github.com/fangfaze/fangfaze.github.io)
 
-[MIT License](https://github.com/fangfaze/fangfaze.github.io/blob/master/LICENSE.md)
-
+[MIT License](https://github.com/fangfaze/fangfaze.github.io/blob/master/LICENSE)
 
