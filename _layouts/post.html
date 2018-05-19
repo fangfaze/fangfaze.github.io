@@ -20,6 +20,7 @@ layout: default
                 {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
             </div>
 
+
             <div class="label-card">
             {% include category.html %}
             </div>
@@ -28,7 +29,16 @@ layout: default
             {% include tag.html %}
             </div>
 
+
         </div>
+
+        {% if page.original%}
+        <div class="label-card">
+            <p> 本文采用<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/">署名-非商业性使用-相同方式共享 3.0 中国大陆</a>许可. <br/>
+            原文地址: {{site.url}}{{page.url}}</p>
+        </div>
+        {% endif %}
+
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
         {{content}}
