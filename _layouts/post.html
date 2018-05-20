@@ -22,11 +22,11 @@ layout: default
 
 
             <div class="label-card">
-            {% include category.html %}
+                {% include category.html %}
             </div>
 
             <div class="label-card">
-            {% include tag.html %}
+                {% include tag.html %}
             </div>
 
 
@@ -34,14 +34,17 @@ layout: default
 
         {% if page.original%}
         <div class="label-card">
-            <p> 本文采用<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/">署名-非商业性使用-相同方式共享 3.0 中国大陆</a>许可. <br/>
-            原文地址: {{site.url}}{{page.url}}</p>
+            <p>
+                本文采用<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/">署名-非商业性使用-相同方式共享 3.0 中国大陆</a>许可.
+                <br/>
+                原文地址: <a href="{{site.url}}{{page.url}}">{{site.url}}{{page.url}}</a>
+            </p>
         </div>
         {% endif %}
 
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
-        {{content}}
+            {{content}}
         </article>
         <hr>
 
@@ -110,5 +113,6 @@ layout: default
         aTags[i].setAttribute('target', '_blank')
     }
 }());
+
 </script>
 <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
