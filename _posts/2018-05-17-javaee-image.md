@@ -10,11 +10,13 @@ original: true
 * content
 {:toc}
 
-知识技能的积累,离不开一个深邃复杂的知识图谱的建立.
+知识技能的积累,离不开一个知识图谱的建立.
 
 选择服务器方向java也是如此,需要各个方面的知识技能准备,这是一个长期的过程,不要妄图短时间速成.
 
 如果对一个体系没有一个整体的认识,很难成为专家.所以,建立关于服务器java的知识图谱是当务之急.这个图谱其实不难建立,而困难是在未来的工作学习中,不断的完成充实相应的内容.
+
+随着对各个层面的理解,终于知识图谱也将变得深入复杂.任何时候,新学习的只是概念都可以和以往的知识积累形成关联,融入到新的版本的图谱当中.
 
 
 
@@ -30,11 +32,14 @@ original: true
 
 ![](http://p8t4291gd.bkt.clouddn.com/markdown-image-paste-1526632977198)
 
-
 ![](http://p8t4291gd.bkt.clouddn.com/markdown-image-paste-1526633004607)
 
 在不同的操作系统中实现的不同型号的虚拟机,都是符合java虚拟机的架构设计,虽然是不同的实现,但是都可以执行java字节码.以此保证java跨平台性(一次编译到处运行)
 > 对于IOS系统来说,并非不能运行java程序,而是因为其虚拟机被开发出来之后不能被发行,所以IOS设备才不具备运行java程序的能力.
+
+# 图谱v1.0
+
+![](http://p8t4291gd.bkt.clouddn.com/markdown-image-paste-1527052996097)
 
 # java内外
 java有多个Edition,分别为`JavaSE`(1.8集成了`JavaFX`),`JavaEE`,`JavaME`,`Java Card`,`Java for Android`.不同的平台有不同的应用前景和方向.
