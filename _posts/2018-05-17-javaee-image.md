@@ -22,28 +22,41 @@ original: true
 
 
 
-# 认识java
+# 图谱v1.0
 
-- `java语言`是一门编程语言.
-- `java语言`编写出的文件是`java源代码`
-- `java源代码`经过编译生成`java字节码`
-- `java字节码`在`java虚拟机`上运行
-- `java虚拟机`是一台虚拟的计算机,依赖于所在`操作系统`的具体实现
+![](http://p8t4291gd.bkt.clouddn.com/markdown-image-paste-1527052996097)
+
+> `java`是一系列相关内容的总称.其体系包括了诸多的概念.
+
+- JDK是java开发工具,包括了编译器和JRE.可以将`java源代码`编译成`java字节码`,语法与编译规则,根据JDK版本会有不同.
+- JRE是运行时环境,包括了运行时类库和JVM.
+- JVM是`java虚拟机`,可以解释执行`java字节码`.通过虚拟机`java字节码`被解释成为`机器码`.
+- 操作系统执行`机器码`.
+
+
+## java漫画(1)-虚拟机
 
 ![](http://p8t4291gd.bkt.clouddn.com/markdown-image-paste-1526632977198)
 
 ![](http://p8t4291gd.bkt.clouddn.com/markdown-image-paste-1526633004607)
 
-在不同的操作系统中实现的不同型号的虚拟机,都是符合java虚拟机的架构设计,虽然是不同的实现,但是都可以执行java字节码.以此保证java跨平台性(一次编译到处运行)
-> 对于IOS系统来说,并非不能运行java程序,而是因为其虚拟机被开发出来之后不能被发行,所以IOS设备才不具备运行java程序的能力.
+在不同的操作系统中实现的不同型号的虚拟机,都是符合java虚拟机的架构设计,都可以执行java字节码.以此保证java跨平台性(一次编译到处运行)
+> 对于IOS系统来说,并非不能运行java程序,而是因为其虚拟机被开发出来之后因为政策原因没有发行,所以IOS设备才不具备运行java程序的能力.
 
-# 图谱v1.0
 
-![](http://p8t4291gd.bkt.clouddn.com/markdown-image-paste-1527052996097)
 
-# java内外
-java有多个Edition,分别为`JavaSE`(1.8集成了`JavaFX`),`JavaEE`,`JavaME`,`Java Card`,`Java for Android`.不同的平台有不同的应用前景和方向.
-而服务器方向,主要是JavaEE体系,但需要JavaSE的知识结构作为基础.
+# java版本
+
+> `java`与`javascript`(`ECMAScript`)是不同的两种语言,两者没有直接关系.
+
+java体系有多个版本(Edition),分别为`JavaSE`(1.8集成了`JavaFX`),`JavaME`,`JavaEE`,`Java Card`,`Java for Android`,不同的平台有不同的应用前景和方向.
+主要是指javaSE
+而服务器方向,遵循JavaEE体系规则,但需要JavaSE的知识结构作为基础(其中也与Spring框架有关).
+
+java语言经历过多个版本(Version),每个版本都会引入一些新的特性,并且向前兼容.目前仍支持的最新的版本是`javaSE8`.
+
+> `javaSE9`已经发布,虽然引入了新的特性,但更多的是一个过渡版本.10年9月即将发行的`javaSE10`.
+
 
 体系|方向
 ---|---
@@ -57,7 +70,6 @@ Java for Android|为android系统开发应用
 `java web`与`JavaEE`不是一个层次上的概念.前者泛指使用java技术开发网页,其中的java技术很大程度上就是后者.java web还包含了html等范畴的东西.
 
 
-> `java`与`javascript`(`ECMAScript`)是不同的两种语言,两者没有关系.
 
 
 # 知识架构
