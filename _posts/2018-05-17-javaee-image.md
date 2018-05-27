@@ -34,40 +34,48 @@ original: true
 - 操作系统执行`机器码`.
 
 
-## java漫画(1)-虚拟机
+# 图谱知识点展开
+概念|引申概念
+源文件|`*.java`
+字节码|`*.class`
+机器码|`操作系统`
+JDK|`组成`
+JRE|
+JVM|`JVM架构`,`历史沿革`,`内存模型`,`调优`,`解释执行`
+编译器|`历史沿革`
+语法|`OOP`,`AOP`,`关键字`
+运行时类库|
 
-![](http://p8t4291gd.bkt.clouddn.com/markdown-image-paste-1526632977198)
-
-![](http://p8t4291gd.bkt.clouddn.com/markdown-image-paste-1526633004607)
-
-在不同的操作系统中实现的不同型号的虚拟机,都是符合java虚拟机的架构设计,都可以执行java字节码.以此保证java跨平台性(一次编译到处运行)
-> 对于IOS系统来说,并非不能运行java程序,而是因为其虚拟机被开发出来之后因为政策原因没有发行,所以IOS设备才不具备运行java程序的能力.
 
 
 
-# java版本
+# java版本(Edition)
 
 > `java`与`javascript`(`ECMAScript`)是不同的两种语言,两者没有直接关系.
 
 java体系有多个版本(Edition),分别为`JavaSE`(1.8集成了`JavaFX`),`JavaME`,`JavaEE`,`Java Card`,`Java for Android`,不同的平台有不同的应用前景和方向.
-主要是指javaSE
-而服务器方向,遵循JavaEE体系规则,但需要JavaSE的知识结构作为基础(其中也与Spring框架有关).
 
-java语言经历过多个版本(Version),每个版本都会引入一些新的特性,并且向前兼容.目前仍支持的最新的版本是`javaSE8`.
-
-> `javaSE9`已经发布,虽然引入了新的特性,但更多的是一个过渡版本.10年9月即将发行的`javaSE10`.
-
+`javaSE`是基础,服务器方向,遵循`JavaEE`技术规范.
+`java web`与`JavaEE`不是一个层次上的概念.前者泛指使用java技术开发网页,其中的java技术很大程度上就是后者.java web还包含了html等范畴的东西.因为`Spring`框架的出现,`JavaEE`规范部分,在javaWeb的存在感更加模糊.
 
 体系|方向
 ---|---
 JavaSE|开发和部署桌面、服务器以及嵌入设备和实时环境中的Java应用程序(同时也是基础)
 JavaFX|GUI组件,用以开发RIA客户端
-JavaEE|开发和部署企业级应用,主要指服务器研发,让服务器运行可复用,安全的Servlet等web技术等.
-JavaME|开发和部署嵌入式应用,提供优化的运行环境,使嵌入式设备运行Java Applet
-Java Card|智慧卡或相近的装置上，以具有安全防护性的方式来执行小型的Java Applet
+JavaEE|开发和部署企业级应用,主要指服务器研发,让服务器运行可复用,安全的Servlet等web技术等,是一个技术规范.
+JavaME|开发和部署嵌入式应用,提供优化的运行环境,使嵌入式设备运行Java Applet,是一个技术规范.
+Java Card|智慧卡或相近的装置上，以具有安全防护性的方式来执行小型的Java Applet,具体不详.
 Java for Android|为android系统开发应用
 
-`java web`与`JavaEE`不是一个层次上的概念.前者泛指使用java技术开发网页,其中的java技术很大程度上就是后者.java web还包含了html等范畴的东西.
+
+# java版本(Version)历史
+
+java语言经历过多个版本(Version),每个版本都会引入一些新的特性,并且向前兼容.目前仍支持的最新的版本是`javaSE8`.
+
+> `javaSE9`已经发布,虽然引入了新的特性,但更多的是一个过渡版本,10年9月即将发行的`javaSE10`,可能也将是一个过渡版本,下一个长期支持版本可能是`javaSE11`.
+
+
+
 
 
 
