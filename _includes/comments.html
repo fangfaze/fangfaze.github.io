@@ -3,6 +3,7 @@
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
+  id: md5(window.location.pathname),
   owner: 'fangfaze',
   repo: 'fangfaze.github.io',
   oauth: {
@@ -10,5 +11,5 @@ var gitment = new Gitment({
     client_secret: '68bec14e2453271f2e1ac904b9c6abfde3fd4204',
   },
 })
-gitment.render('container')
+gitment.render('gitmentContainer')
 </script>
